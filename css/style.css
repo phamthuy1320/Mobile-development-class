@@ -1,42 +1,109 @@
-body{
-	background-color: #81c1a2;
+.body-page {
+  margin: 10px auto;
+  width: 720px;
+  font-family: "Roboto", Arial, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.banner-top {
-	background-color: grey;
-	width: 100%;
-	height: 70px;
-    text-align: center;
- 	color: white;
- 	font-size: 20pt;
- 	padding-top: 30px;
+.body-page .header {
+  display: flex;
+  height: 244px;
 }
 
-.product{
-	background-color:white ; 
-	display: inline-block;
-	text-align: center;
-	border:5px solid white;
-	border-radius: 3px;
-	margin-top: 30px;
-	margin-right: 10px;
-	
+.body-page .header .logo-app {
+  display: flex;
+  min-width: 230px;
+  height: 100%;
 }
 
-.icon{
-	width: 200px;
-	height: 100%;
-	margin-top: -20px;
-	border: 1px solid #79828a ;
+.body-page .header .logo-app img {
+  display: inline-block;
+  margin: auto;
 }
 
-.name{
-	display: block;
-	text-align: center;
-	padding-top: 3px;
-	color: #79828a;
+.body-page .header .app-name {
+  padding-top: 30px;
+  padding-right: 30px;
+  position: relative;
 }
 
-.content{
-	margin-top:50px;
+.body-page .header .app-name .title {
+  font-size: 30px;
+}
+
+.body-page .header .app-name .setting {
+  background-color: #33691e;
+  text-align: center;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  padding: 0;
+  margin-top: 28px;
+  outline: none;
+}
+
+.body-page .header .app-name .setting a {
+  display: inline-block;
+  color: #fff;
+  padding: 0 16px;
+  width: 100%;
+  height: 100%;
+  line-height: 36px;
+  text-decoration: none;
+}
+
+.body-page .header .app-name .topic-same a {
+  color: #33691e;
+  font-weight: bold;
+  margin-right: 16px;
+}
+
+.body-page .img-introduce-app {
+  width: 100%;
+  height: 318px;
+  margin-bottom: 36px;
+  display: flex;
+}
+
+.body-page .img-introduce-app .img {
+  position: relative;
+  width: calc(100% - 80px);
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.body-page .img-introduce-app .img button {
+  border: none;
+  background-color: #fff;
+}
+
+.body-page .img-introduce-app .previous,
+.body-page .img-introduce-app .next {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 100%;
+}
+
+.body-page .img-introduce-app .previous .icon-previous {
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-image: url("images/icon-previous.png");
+}
+
+.body-page .img-introduce-app .next .icon-next {
+  width: 40px;
+  height: 40px;
+  background-size: 40px;
+  background-image: url("images/icon-next.png");
+}
+
+.body-page .text-introduce-app {
+  margin: 10px 30px;
+  padding: 20px;
+  font-size: 13px;
+  text-rendering: optimizeLegibility;
 }
