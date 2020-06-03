@@ -26,15 +26,15 @@ class AddWord {
 
   next() {
     debugger;
-    var value = $(".img").css("left");
+    var value = $(".img").css("right");
 
-    value = Number(value.substring(0, value.length - 2));
+    value = Number(value.substring(0, value.length + 2));
     if (value) {
-      value = Number(value) - 20;
+      value = Number(value) + 20;
     } else {
       value = 0;
     }
 
-    $(".img").css("left", value + "px");
+    $(".img").css("right", value + "px");
   }
 }
