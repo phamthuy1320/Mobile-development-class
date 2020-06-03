@@ -91,14 +91,14 @@
   width: 40px;
   height: 40px;
   background-size: 40px;
-  background-image: url("images/icon-previous.png");
+  background-image: url("https://devbacninh.github.io/images/icon-previous.png");
 }
 
 .body-page .img-introduce-app .next .icon-next {
   width: 40px;
   height: 40px;
   background-size: 40px;
-  background-image: url("images/icon-next.png");
+  background-image: url("https://devbacninh.github.io/images/icon-next.png");
 }
 
 .body-page .text-introduce-app {
