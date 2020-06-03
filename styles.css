@@ -65,6 +65,7 @@
   height: 318px;
   margin-bottom: 36px;
   display: flex;
+  justity-content: center;
 }
 
 .body-page .img-introduce-app .img {
@@ -83,6 +84,7 @@
 .body-page .img-introduce-app .next {
   display: flex;
   align-items: center;
+  justity-content: space-around;
   width: 40px;
   height: 100%;
 }
